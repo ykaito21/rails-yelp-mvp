@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :restaurnats
+  resources :restaurants
 end
