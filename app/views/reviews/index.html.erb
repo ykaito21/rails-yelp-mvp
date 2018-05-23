@@ -1,0 +1,8 @@
+<div>
+  <% @reviews.each do |review| %>
+    <%= link_to review_path(review) do %>
+      <%= review.content %>
+    <% end %>
+  <% end %>
+</div>
+
